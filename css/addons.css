@@ -1,0 +1,37 @@
+.ipage{background:#1695A3;height:580px;overflow: hidden}
+.logintab{margin-left:40px;}
+.logintab a{color:#fff;border:none;}
+.logintab>div{border:none;}
+.logintab p{color:#fff;}
+.logintab .s-taber-head{text-align: center;width:290px;margin-bottom:30px;margin-top:50px;}
+.logintab .s-taber-head a{text-align: center;display:inline-block;*display:inline;zoom:1;float: inherit;background: #21a0bf;line-height:40px;height:40px;width:90px;font-size:14px;}
+.logintab .s-taber-head a i{margin-left:10px;font-size:16px}
+.logintab a.selected{background: #12b2e3}
+.inp{
+display: block;
+width:260px;
+height:24px;
+padding:4px 12px;
+font-size: 14px;
+color: #555;
+vertical-align: middle;
+background-color: #fff;
+background-image: none;
+border:none !important;
+-webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+margin:0 auto;}
+.ipage .logo{color:#fff;position: absolute;left:0;top:20px;font-size:32px;}
+.abouts{padding-top:40px;}
+.footer{height:140px;}
+.footer p{margin-top:60px;font-size:12px;}
+.loginbtn,.regbtn{display: block;width:100%;padding:14px;color:#fff;width:274px;margin:0;font-size:22px;}
+.loginbtn i{margin-left:20px;color:#fff;}
+.loginbtn{background:#00c3a9;}
+.loginbtn:hover{background:#00dcbe;}
+.regbtn{background:#afd687;}
+.regbtn:hover{background:#b6e189;}
+.loginbox{}
+.regbox{}
+.bannerimg{position: absolute;left:0;top:0;width:780px;height:580px;text-align: center;}
+.bannerimg img{width:68%;margin:0 auto;}
