@@ -6,16 +6,314 @@
 <title>道道网</title>
 <meta content="no" http-equiv="imagetoolbar">
 <link type="image/x-icon" href="assets/ico/favicon.ico" rel="shortcut icon">
-<link rel="stylesheet" href="assets/css/cutter.css">
+<link rel="stylesheet" href="css/jquery-ui.css">
+<link rel="stylesheet" href="css/theme.css">
+<link rel="stylesheet" href="css/primeui-1.1-min.css">
+<link rel="stylesheet" href="css/style.css" />
+<!--
 <link rel="stylesheet" href="css/addons.css">
-<script src="assets/js/jquery.js"></script> 
+<link rel="stylesheet" href="assets/css/cutter.css">
+-->
+<script src="js/jquery.js"></script> 
 <script src="assets/js/cutter.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/primeui-1.1-min.js"></script>
 </head>
 <body>
-<div class="row">
-	<div class="g1">sdf</div>
-	<div class="g4">fasldfkajsdfl</div>
-	<div class="g7">fajsdflk</div>
+	<div class="row">
+		<h1 class="logo">道道网<span class="f14">中国最大的金融超市</span></h1>
+	</div>
+<div class="s-naver">
+	<div class="row">
+	<ul class="nav">
+		<li class="active">
+			<a href="">首页</a>
+		</li>
+		<li>
+			<a href="">我的道道</a>
+		</li>
+		<li>
+			<a href="">找资金</a>
+		</li>
+		<li>
+			<a href="">找项目</a>
+		</li>
+		<li>
+			<a href="">同道问答</a>
+		</li>
+		<li>
+			<a href="">聚道活动</a>
+		</li>
+		<li>
+			<a href="">新闻中心</a>
+		</li>
+		<li>
+			<a href="">渠道工作台</a>
+		</li>
+		<li>
+			<a href="">财经导航</a>
+		</li>
+		<li>
+			<a href="">诚道通会员</a>
+		</li>
+	</ul>
+	</div>
+</div>
+
+<div class="hd1">
+	<div class="container">
+		<div class="row">
+			<div class="g3">
+			
+			<button id="default" type="button">Default</button>  
+  
+<button id="left" type="button">Left Icon</button>  
+  
+<button id="right" type="button">Right Icon</button>  
+  
+<button id="icononly" type="button"></button>  
+  
+<button id="disabled" type="button" disabled="disabled">Disabled</button>  
+
+
+			<input id="in" type="text" />  
+                                              
+<h3>Enable / Disable</h3>  
+  
+<input id="state" type="text" /> <br/>  
+<button id="enable" type="button">Enable</button>  
+<button id="disable" type="button">Disable</button> 
+
+<h3 class="title title-short" style="margin-top: 0px;">Basic</h3>  
+<select id="basic" name="basic">  
+    <option value="0">Select One</option>  
+    <option value="1">Option 1</option>  
+    <option value="2">Option 2</option>  
+    <option value="3">Option 3</option>  
+</select>  
+  
+<h3 class="title title-short">Editable</h3>  
+<select id="editable" name="editable">  
+    <option value="0">Select a City</option>  
+    <option value="1">Barcelona</option>  
+    <option value="2">Berlin</option>  
+    <option value="3">Istanbul</option>  
+    <option value="4">London</option>  
+    <option value="5">New York</option>  
+    <option value="6">Paris</option>  
+    <option value="7">Rome</option>  
+</select>  
+  
+<h3 class="title title-short">Custom Content</h3>  
+<select id="custom" name="custom"></select>  
+  
+<h3 class="title title-short">Filter</h3>  
+<select id="filter" name="filter">  
+    <option value="0">Select a City</option>  
+    <option value="1">Barcelona</option>  
+    <option value="2">Berlin</option>  
+    <option value="3">Istanbul</option>  
+    <option value="4">London</option>  
+    <option value="5">New York</option>  
+    <option value="6">Paris</option>  
+    <option value="7">Rome</option>  
+</select>  
+                                              
+<h3>Update</h3>  
+<select id="update" name="update">  
+    <option value="0">Select One</option>  
+    <option value="1">Option 1</option>  
+    <option value="2">Option 2</option>  
+    <option value="3">Option 3</option>  
+</select><br/>  
+<button id="updateOptions" type="button">Update options</button>                                             
+</div>
+<div class="g6"><div id="images">  
+    <ul>  
+        <li><img src="imgs/banner1.png" alt="Galleria 1 Description" title="Galleria 1"/></li>  
+        <li><img src="imgs/darthvader.jpg" alt="Galleria 1 Description" title="Galleria 1"/></li>  
+    </ul>  
+</div>  </div>
+			<div class="g3">sd</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">  
+ $(function() {  
+        $('#images').puigalleria({  
+            panelWidth: 500,  
+            panelHeight: 313 ,
+      
+           
+        }); 
+         }); 
+    $(function() {  
+        $('#default').puibutton();   
+  
+        $('#left').puibutton({  
+            icon: 'ui-icon-check'  
+        });  
+  
+        $('#right').puibutton({  
+            icon: 'ui-icon-close'  
+            ,iconPos: 'right'  
+        });  
+  
+        $('#icononly').puibutton({  
+            icon: 'ui-icon-disk'  
+        });  
+  
+        $('#disabled').puibutton();  
+    });  
+</script>  
+
+<script type="text/javascript">  
+    $(function() {  
+        var themes = new Array('afterdark', 'afternoon', 'afterwork', 'aristo', 'black-tie', 'blitzer', 'bluesky', 'bootstrap', 'casablanca', 'cruze',  
+        'cupertino', 'dark-hive', 'dot-luv', 'eggplant', 'excite-bike', 'flick', 'glass-x', 'home', 'hot-sneaks', 'humanity', 'le-frog', 'midnight',  
+        'mint-choc', 'overcast', 'pepper-grinder', 'redmond', 'rocket', 'sam', 'smoothness', 'south-street', 'start', 'sunny', 'swanky-purse', 'trontastic',  
+        'ui-darkness', 'ui-lightness', 'vader');  
+  
+        $('#basic').puidropdown();  
+  
+        $('#editable').puidropdown({  
+            editable: true  
+        });  
+  
+        $('#custom').puidropdown({  
+            data: themes,  
+            content: function(option) {  
+                return '<img src="resources/demo/images/themes/' + option + '.png" alt="" /><span style="float:right;font-size:14px">' + option + '</span>';  
+            }  
+        });  
+  
+        $('#filter').puidropdown({  
+            filter: true  
+        });  
+  
+        $('#update').puidropdown();  
+  
+        $('#updateOptions').puibutton({  
+            click: function () {  
+                var newOptions = [{value: '0', label: 'Select one'},  
+                    {value: '6', label: 'Option 6'},  
+                    {value: '7', label: 'Option 7'},  
+                    {value: '8', label: 'Option 8'},  
+                    {value: '9', label: 'Option 9'}  
+                ];  
+  
+                $('#update').puidropdown('option', 'data', newOptions);  
+            }  
+        });  
+                                              
+        $('#state').puidropdown();  
+  
+        $('#enable').puibutton({  
+            click: function () {  
+                $('#state').puidropdown('enable');  
+                $('#enable').hide();  
+                $('#disable').show();  
+            }  
+        });  
+  
+        $('#disable').puibutton({  
+            click: function () {  
+                $('#state').puidropdown('disable');  
+                $('#enable').show();  
+                $('#disable').hide();  
+            }  
+        });  
+  
+        $('#enable').hide();                                              
+    });  
+</script> 
+<script type="text/javascript">  
+$('#basic').puidropdown();  
+        $(function() {  
+            $('#in').puiinputtext();  
+  
+            $('#enable').puibutton({  
+                click: function () {  
+                    $('#state').puiinputtext('enable');  
+                    $('#enable').hide();  
+                    $('#disable').show();  
+                }  
+            });  
+  
+            $('#disable').puibutton({  
+                click: function () {  
+                    $('#state').puiinputtext('disable');  
+                    $('#enable').show();  
+                    $('#disable').hide();  
+                }  
+            });  
+  
+            $('#enable').hide();  
+        });  
+</script>
+
+
+<div class="myfooter">
+<div class="container">
+	<div class="row">
+	<div class="g2">
+		<h3>简介</h3>
+		<a href="">道道网简介</a>
+		<a href="">创新优势</a>
+		<a href="">友情链接</a>
+		<a href="">意见反馈</a>
+		<a href="">联系我们</a>
+	</div>
+	
+	
+	<div class="g2">
+	<h3>帮助</h3>
+		<a href="">功能手册</a>
+		<a href="">网站地图</a>
+		<a href="">用户协议</a>
+		<a href="">常见问题</a>
+		<a href="">加入道道网</a>
+	</div>
+	
+	<div class="g2">
+		<h3>服务</h3>
+		<a href="">诚道通服务</a>
+		<a href="">一对一渠道服务</a>
+		<a href="">机构服务</a>
+		<a href="">活动服务</a>
+		</div>
+	<div class="g2">
+		<h3>导航</h3>
+		<a href="">财经导航</a>
+		<a href="">房间黄页</a>
+	</div>
+	
+	<div class="g4">
+		<div class="l mr20">
+			<h2>服务热线</h2>
+			<p class="f24">400-0999-099</p>
+			<p>工作时间<br />8:00-20:00</p>
+		</div>
+		
+		<div class="ewm">
+			<span><img class="w70" src="imgs/ewm.jpg" alt="" />关注我们</span>
+			<span><img class="w70" src="imgs/ewm.jpg" alt="" />微博</span>
+		</div>
+	</div>
+	
+</div>
+</div>
+</div>
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="g12">
+                <p>京 ICP 备 13052560 号 · 京公网安备 11010802010035 号</p>
+            </div>
+        </div>
+    </div>
 </div>
 </body>
 </html>

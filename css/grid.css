@@ -1,0 +1,98 @@
+
+/* row----------------------*/
+.row{margin-left: auto;margin-right: auto;width: 1080px;}
+/* Grid >> Global------*/
+.g1,
+.g2,
+.g3,
+.g4,
+.g5,
+.g6,
+.g7,
+.g8,
+.g9,
+.g10,
+.g11,
+.g12{display:inline;float: left;position: relative;margin-left: 10px;margin-right: 10px;}
+.pl_1, .pr_1,
+.pl_2, .pr_2,
+.pl_3, .pr_3,
+.pl_4, .pr_4,
+.pl_5, .pr_5,
+.pl_6, .pr_6,
+.pl_7, .pr_7,
+.pl_8, .pr_8,
+.pl_9, .pr_9,
+.pl_10, .pr_10,
+.pl_11, .pr_11,
+.pl_12, .pr_12{position:relative;}
+/* Grid >> Children (Alpha ~ First, Omega ~ Last)*/
+.alpha{margin-left: 0;}
+.omega{margin-right: 0;}
+/* Grid >> 12 Columns*/
+.row .g1{width:70px;}
+.row .g2{width:160px;}
+.row .g3{width:250px;}
+.row .g4{width:340px;}
+.row .g5{width:430px;}
+.row .g6{width:520px;}
+.row .g7{width:610px;}
+.row .g8{width:700px;}
+.row .g9{width:790px;}
+.row .g10{width:880px;}
+.row .g11{width:970px;}
+.row .g12{width:1060px;}
+/* Prefix Extra Space >> 12 Columns/*/
+.row .prefix_1{padding-left:90px;}
+.row .prefix_2{padding-left:180px;}
+.row .prefix_3{padding-left:270px;}
+.row .prefix_4{padding-left:360px;}
+.row .prefix_5{padding-left:450px;}
+.row .prefix_6{padding-left:540px;}
+.row .prefix_7{padding-left:630px;}
+.row .prefix_8{padding-left:720px;}
+.row .prefix_9{padding-left:810px;}
+.row .prefix_10{padding-left:900px;}
+.row .prefix_11{padding-left:990px;}
+/* Suffix Extra Space >> 12 Columns*/
+.row .suffix_1{padding-right:90px;}
+.row .suffix_2{padding-right:180px;}
+.row .suffix_3{padding-right:270px;}
+.row .suffix_4{padding-right:360px;}
+.row .suffix_5{padding-right:450px;}
+.row .suffix_6{padding-right:540px;}
+.row .suffix_7{padding-right:630px;}
+.row .suffix_8{padding-right:720px;}
+.row .suffix_9{padding-right:810px;}
+.row .suffix_10{padding-right:900px;}
+.row .suffix_11{padding-right:990px;}
+/* Push Space >> 12 Columns*/
+.row .pl_1{left:90px;}
+.row .pl_2{left:180px;}
+.row .pl_3{left:270px;}
+.row .pl_4{left:360px;}
+.row .pl_5{left:450px;}
+.row .pl_6{left:540px;}
+.row .pl_7{left:630px;}
+.row .pl_8{left:720px;}
+.row .pl_9{left:810px;}
+.row .pl_10{left:900px;}
+.row .pl_11{left:990px;}
+/* pr Space >> 12 Columns*/
+.row .pr_1{left:-90px;}
+.row .pr_2{left:-180px;}
+.row .pr_3{left:-270px;}
+.row .pr_4{left:-360px;}
+.row .pr_5{left:-450px;}
+.row .pr_6{left:-540px;}
+.row .pr_7{left:-630px;}
+.row .pr_8{left:-720px;}
+.row .pr_9{left:-810px;}
+.row .pr_10{left:-900px;}
+.row .pr_11{left:-990px;}
+/*Clear Floated Elements*/
+.clear{clear: both;display: block;overflow: hidden;visibility: hidden;width: 0;height: 0;}
+.clearfix:before,
+.clearfix:after{content: '\0020';display: block;overflow: hidden;visibility: hidden;width: 0;height: 0;}
+.clearfix:after{clear: both;}
+.clearfix{zoom: 1;}
